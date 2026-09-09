@@ -10,15 +10,15 @@ Changes in released versions of Zotero 10.0 are documented on this page. To foll
 - Show clearer errors at startup for database corruption or a read-only database (since 10.0)
 - [Windows] Fixed dragging attachments to File Explorer (since 10.0)
 - Fixed sync errors due to non-ASCII characters in credentials (since 10.0)
-- Read Aloud improvements
+- Read Aloud fixes
   - Fixed Read Aloud not starting on some Linux systems 
   - Preserve horizontal focus during Read Aloud
   - Split sentences followed by footnote markers
-- Reading Mode improvements
-  - Fixed back/forward
+- Reading Mode fixes
+  - Fixed back/forward buttons
   - Fixed page navigation
-  - Prevent auto-scrolling after a manual scroll when using Read Aloud
   - Fixed highlights covering the whole paragraph for sentences containing italics
+  - Prevent auto-scrolling after a manual scroll when using Read Aloud
 - Fixed error using CSL 0.8 styles (since 8.0)
 - Fixed "false" appearing in Added By/Modified By columns for trashed collections
 - [Security] Updated Mozilla platform to 140.15.0esr
