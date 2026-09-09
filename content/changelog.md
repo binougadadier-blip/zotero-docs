@@ -2,6 +2,32 @@
 
 Changes in released versions of Zotero 10.0 are documented on this page. To follow development, see the [commit log on GitHub](https://github.com/zotero/zotero/commits/). More recent changes may be available in a [beta build](beta_builds).
 
+## Changes in 10.0.2 (September 9, 2026)
+
+- Show recently used collections in the Add to Collection menu
+- Fixed some missing attachments never being downloaded
+- [Linux] Improved error messages when system keystore isn't available
+- Show clearer errors at startup for database corruption or a read-only database (since 10.0)
+- [Windows] Fixed dragging attachments to File Explorer (since 10.0)
+- Fixed sync errors due to non-ASCII characters in credentials (since 10.0)
+- Read Aloud improvements
+  - Fixed Read Aloud not starting on some Linux systems 
+  - Preserve horizontal focus during Read Aloud
+  - Split sentences followed by footnote markers
+- Reading Mode improvements
+  - Fixed back/forward
+  - Fixed page navigation
+  - Prevent auto-scrolling after a manual scroll when using Read Aloud
+  - Fixed highlights covering the whole paragraph for sentences containing italics
+- Fixed error using CSL 0.8 styles (since 8.0)
+- Fixed "false" appearing in Added By/Modified By columns for trashed collections
+- [Security] Updated Mozilla platform to 140.15.0esr
+- Miscellaneous bug fixes
+
+### Developer-specific changes/fixes
+
+- [Singular selection getters](/support/dev/zotero_10_for_developers#singular_selection_getters) such as `CollectionTree#getSelectedSearch()` no longer throw when a single row is selected in the collections list; plugins should still be updated to use the new plural getters
+
 ## Changes in 10.0.1 (August 24, 2026)
 
 - Fixed database access on network filesystems on macOS and Linux
