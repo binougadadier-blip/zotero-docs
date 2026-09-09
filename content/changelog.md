@@ -5,6 +5,7 @@ Changes in released versions of Zotero 10.0 are documented on this page. To foll
 ## Changes in 10.0.2 (September 9, 2026)
 
 - Show recently used collections in the Add to Collection menu
+- Fixed some elements being omitted in exported PDFs
 - Fixed some missing attachments never being downloaded
 - [Linux] Improved error messages when system keystore isn't available
 - Show clearer errors at startup for database corruption or a read-only database (since 10.0)
