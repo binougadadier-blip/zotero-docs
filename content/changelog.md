@@ -2,6 +2,16 @@
 
 Changes in released versions of Zotero 10.0 are documented on this page. To follow development, see the [commit log on GitHub](https://github.com/zotero/zotero/commits/). More recent changes may be available in a [beta build](beta_builds).
 
+## Changes in 10.0.3 (September 17, 2026)
+
+- [Windows] Fixed dragging file attachments to and from parent items (since 10.0.2)
+- Fixed launching of non-HTTP URLs (since 10.0.2)
+- Fixed WebDAV authentication for passwords containing '%' followed by two hex digits
+- Fixed rendering of some PDF sections when using a reader theme
+- Fixed items list row contents shifting when showing a between-rows drop indicator
+- Fixed Locate button when missing file was on a path too long for the filesystem
+- [Mac] Try to automatically restore Zotero Connector for Safari if broken after app update due to macOS bug
+
 ## Changes in 10.0.2 (September 9, 2026)
 
 - Show recently used collections in the Add to Collection menu
