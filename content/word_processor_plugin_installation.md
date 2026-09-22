@@ -1,4 +1,4 @@
-# Installing the Zotero Word Processor Plugins
+                                                                                                                                                  # Installing the Zotero Word Processor Plugins
 
 The [word processor plugins](word_processor_integration) are bundled with Zotero and should be installed automatically for each [supported word processor](system_requirements#word_processors) on your computer when you first start Zotero.
 
